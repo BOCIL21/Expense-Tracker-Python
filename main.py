@@ -1,4 +1,4 @@
-# github test1
+# github test
 def expenses_menu():
     expenses = []
 
