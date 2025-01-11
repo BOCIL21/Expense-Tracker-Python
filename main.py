@@ -1,7 +1,6 @@
-# github test 
+
 def expenses_menu():
     expenses = []
-
     def add_expense():
         date = input("Tanggal (YYYY-MM-DD): ")
         category = input("Kategori: ")
@@ -83,6 +82,5 @@ def expenses_menu():
             break
         else:
             print("Pilihan tidak valid. Coba lagi.\n")
-
 if __name__ == "__main__":
     expenses_menu()
