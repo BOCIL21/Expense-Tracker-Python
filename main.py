@@ -13,7 +13,7 @@ def expenses_menu():
             "amount": amount,
             "description": description
         }
-
+ 
         expenses.append(expense)
         expenses.sort(key=lambda x: x['amount'])
         print("Pengeluaran berhasil ditambahkan!\n")
